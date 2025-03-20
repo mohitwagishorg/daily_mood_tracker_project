@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mood Tracker</h1>
+    <p>Select your mood for today:</p>
+    
+    <div class="mood-container">
+        <div class="mood" data-mood="😊">😊</div>
+        <div class="mood" data-mood="😢">😢</div>
+        <div class="mood" data-mood="😐">😐</div>
+        <div class="mood" data-mood="🤩">🤩</div>
+        <div class="mood" data-mood="😡">😡</div>
+    </div>
+
+    <h2>History</h2>
+    <div class="history" id="history"></div>
+
+    <h2>Monthly View</h2>
+    <div class="calendar" id="calendar"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
